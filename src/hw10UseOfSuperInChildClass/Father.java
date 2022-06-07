@@ -18,7 +18,7 @@ public class Father {
 		this.usCitizen = usCitizen;
 		System.out.println("Name: " + name + ", Age: " + age + ", Sex: " + sex + " and is US citizen?: " + usCitizen);
 	}
- 
+
 	public void father() {
 		System.out.println("This is void type method from Father class");
 	}

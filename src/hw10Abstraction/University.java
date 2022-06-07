@@ -1,5 +1,5 @@
 package hw10Abstraction;
-
+// Total how many keywords are used for the inheritance in Interface, answer by Java comments?  Can an interface inherit other Interfaces, or a regular class or abstract class by extends or implements keyword? How many inheritance is possible? Use the Interface -- "University" to answer my questions (University extends College, Hospital) (by multiple line comments).
 public interface University extends College, Hospital {
 	/*
 	 * Extends keyword is used for inheritance in Interface 
