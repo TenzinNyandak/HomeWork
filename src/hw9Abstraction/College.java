@@ -5,10 +5,12 @@ public interface College {
 	public void laboratory();
 	public void languageClub();
 	
-	default void dorm() {
+	public default void dorm() {
+		System.out.println("This is the default type method");
 	}
 	
-	static void studyRoom() {
+	public static void studyRoom() {
+		System.out.println("This is the static type method");
 	}
 
 }
