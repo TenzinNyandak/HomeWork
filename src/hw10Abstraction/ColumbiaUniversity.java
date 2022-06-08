@@ -2,9 +2,10 @@ package hw10Abstraction;
 
 public class ColumbiaUniversity extends MedicalSchool implements University{
 	/*
-	 * Extends keyword is used for inheritance in a regular class 
+	 * Extends and Implements keywords are used for inheritance in a regular class 
 	 * A regular class can only inherit one regular class or an abstract class by extends keyword 
 	 * A regular class cannot inherit interface by extends keyword
+	 * A regular class can inherit interface by implements keyword
 	 */
 	
 	public void chemistry() {
