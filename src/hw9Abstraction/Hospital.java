@@ -6,9 +6,11 @@ public interface Hospital {
 	public void cafeteria();
 	
 	public default void morgue() {
+		System.out.println("This is default type method");
 	}
 	
 	public static void pharmacy() {
+		System.out.println("This is static type method");
 	}
 
 }

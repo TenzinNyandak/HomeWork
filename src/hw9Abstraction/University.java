@@ -15,11 +15,11 @@ public interface University extends College, Hospital {
 	public void teacher();
 
 	public default void gymnasium() {
-		System.out.println("Default method is implemented here");
+		System.out.println("This is default type method");
 	}
 
 	public static void library() {
-		System.out.println("Static method is implemented here");
+		System.out.println("This is static type method");
 	}
 
 }
