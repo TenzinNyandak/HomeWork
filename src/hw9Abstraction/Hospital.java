@@ -5,10 +5,10 @@ public interface Hospital {
 	public void surgeryRoom();
 	public void cafeteria();
 	
-	default void morgue() {
+	public default void morgue() {
 	}
 	
-	static void pharmacy() {
+	public static void pharmacy() {
 	}
 
 }
